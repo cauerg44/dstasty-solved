@@ -17,5 +17,19 @@
 
 header {
     background-color: var(--color-red);
+    height: 70px;
+    display: flex;
+    align-items: center;
 }
 
+nav h1 {
+    text-align: center;
+    color: var(--color-yellow);
+    font-size: 24px;
+}
+
+.container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}

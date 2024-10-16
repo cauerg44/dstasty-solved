@@ -36,12 +36,13 @@ nav h1 {
 }
 
 #pizzas {
-  padding: 40px 0;
+  padding-top: 20px 0;
   background-color: var(--bg-light-gray);
 }
 
 .pizza-card {
   display: flex;
+  margin: 20px 0;
 }
 
 .pizza-card img {

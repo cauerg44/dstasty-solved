@@ -16,6 +16,12 @@
   padding: 0;
 }
 
+a,
+a:hover {
+  color: unset;
+  text-decoration: none;
+}
+
 header {
   background-color: var(--color-red);
   height: 70px;
@@ -37,7 +43,7 @@ nav h1 {
 }
 
 #pizzas {
-  padding-top: 20px 15px;
+  padding: 20px 15px;
   background-color: var(--bg-light-gray);
 }
 
@@ -91,4 +97,26 @@ nav h1 {
   color: var(--color-red);
   border-radius: 12px;
   margin: 20px 0;
+}
+
+footer {
+  padding: 0 15px;
+  height: 120px;
+  background-color: var(--color-red);
+  color: var(--color-yellow);
+  display: flex;
+  align-items: center;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-content a {
+  font-size: 16px;
+}
+
+.footer-content address {
+  font-size: 16px;
 }
